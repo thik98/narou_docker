@@ -14,7 +14,5 @@ https://www.tenjiku.biz/2023/04/09/narou-rb%e3%82%92docker%e8%b5%b7%e5%8b%95/
 ### 2. コンテナを起動します
 `$ docker compose up -d --build`
 
-もしかしたらgitの使い方が分かっていないので.gitフォルダがあるためにbuildxが動くかもしれません。その場合.gitフォルダごと消すか移動させるかして下さい。
-
 ### 3. 以下のURLを開きます
 http://localhost:8200/
