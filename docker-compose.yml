@@ -1,0 +1,11 @@
+version: "3"
+services:
+    narou:
+        build: .
+        container_name: narou
+        image: narou:latest
+        ports:
+            - "8200:8200"
+            - "8201:8201"
+        volumes:
+            - "./data:/opt/narou"
